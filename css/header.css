@@ -1,0 +1,61 @@
+header{
+    height: 90vh;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+div.leftSide{
+    width: 25%;
+    background-color: #1aed5d;  
+    color: #045695;  
+    text-align: center;
+}
+div.rigthSide{
+    background-color: #045695;
+    color: #1aed5d;
+    width:75%;
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.main-title{
+    font-size: 6vw;
+    color: #1aed5d;
+}
+
+.menu-title{
+    font-size: 4vw;
+    color: #045695;
+}
+#menu-title-container{
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+#menu-item-container{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.menu-item{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #045695;
+    font-weight: 500;
+    font-size: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color: #045695;
+    color: #1aed5d;
+}

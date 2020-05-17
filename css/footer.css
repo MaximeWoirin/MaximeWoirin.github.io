@@ -1,21 +1,22 @@
 footer{
-    background-color: #6a98ca;
-    color: #e2eebc;
+    background-color: #045695;
+    color: #1aed5d;
     height: auto;
     }
 
-p{
-    font-family: Arial;
-    font-weight: bold;
+p.footerP{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
     font-size: medium;
     margin-top: 1%;
+    text-align: center;
 }
 
-a{
+a.footerA{
     margin-left: 1%;
     margin-right: 1%;
 }
-i{
-    color: #e2eebc;
+i.footerI{
+    color: #1aed5d;
 }
 
