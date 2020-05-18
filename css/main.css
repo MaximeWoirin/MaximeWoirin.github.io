@@ -262,4 +262,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+a {
+  outline: 0;
+}
 
