@@ -9,8 +9,8 @@ header{
         0 100px 80px rgba(0, 0, 0, 0.12);
 }
 div.leftSide{
-    background-color: #1aed5d;
-    color: #045695;
+    background-color: rgba(12, 10, 10, 0.876);
+    color: whitesmoke;
     width: 25%;
     height: inherit;
     display: flex;
@@ -19,8 +19,8 @@ div.leftSide{
     align-items: center;
 }
 div.rigthSide{
-    background-color: #045695;
-    color: #1aed5d;
+    background-color: whitesmoke;
+    color: rgba(12, 10, 10, 0.876);
     width:75%;
     height: inherit;
 }
@@ -31,7 +31,7 @@ h1{
 }
 #main-title{
     font-size: 6vw;
-    color: #1aed5d;
+    color: inherit;
 }
 #menu-title{
     font-size: 3vw;
@@ -64,30 +64,30 @@ a.header{
 
 .myButton:hover{
     letter-spacing: 0.1em;
-    color: #1aed5d;
-    background-color: #045695;
+    color: rgba(12, 10, 10, 0.876);
+    background-color: whitesmoke;
     animation: color-transition 0.2s;
     text-decoration: none;
-    box-shadow: 0px 1px 0 #045695, 
-                0px 2px 3px #045ea3,
-                0px -1px 0 #045695, 
-                0px -2px 3px #045ea3;
+    box-shadow: 0px 1px 0 whitesmoke, 
+                0px 2px 3px rgb(216, 216, 216),
+                0px -1px 0 whitesmoke, 
+                0px -2px 3px rgb(216, 216, 216);
 }
 
 @keyframes color-transition {
     from {
-        color: #045695;
-        background-color: #1aed5d;
+        color: whitesmoke;
+        background-color: rgba(12, 10, 10, 0.876);
         box-shadow: none;
         letter-spacing: -0.05em;
     }
     to {
-        color: #1aed5d;
-        background-color: #045695;
-        box-shadow: 0px 1px 0 #045695, 
-                0px 2px 3px #045ea3,
-                0px -1px 0 #045695, 
-                0px -2px 3px #045ea3;
+        color: rgba(12, 10, 10, 0.876);
+        background-color: whitesmoke;
+        box-shadow: 0px 1px 0 whitesmoke, 
+                0px 2px 3px rgb(216, 216, 216),
+                0px -1px 0 whitesmoke, 
+                0px -2px 3px rgb(216, 216, 216);
         letter-spacing: 0.1em;
 
     }

@@ -1,6 +1,6 @@
 footer{
-    background-color: #045695;
-    color: #1aed5d;
+    background-color: rgba(12, 10, 10, 0.876);
+    color: whitesmoke;
     height: auto;
     }
 
@@ -17,6 +17,6 @@ a.footerA{
     margin-right: 1%;
 }
 i.footerI{
-    color: #1aed5d;
+    color: whitesmoke;
 }
 
