@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My personal website for a CV",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --no-source-map --watch res/sass/:dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximeWoirin/MaximeWoirin.github.io.git"
+  },
+  "author": "MaximeWoirin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximeWoirin/MaximeWoirin.github.io/issues"
+  },
+  "homepage": "https://github.com/MaximeWoirin/MaximeWoirin.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}

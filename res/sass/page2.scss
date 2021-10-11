@@ -1,0 +1,23 @@
+@import 'colors';
+
+.page2-container{
+    .panel {
+        display: grid;
+        grid-template-rows: 20% 80%;
+
+        h2{
+            text-align:center;
+        }
+        
+        &--left{
+            h2{
+                color: $primary-color;
+            }
+        }
+        &--right{
+            h2{
+                color: $secondary-color;
+            }
+        }
+    }
+}

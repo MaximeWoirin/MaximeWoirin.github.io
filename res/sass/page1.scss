@@ -1,0 +1,39 @@
+@import 'colors';
+
+.page1-container{
+    .panel {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .left-panel{ 
+        align-items: flex-end;
+        h1{
+            color: $secondary-color;
+        }
+        
+        .upper-title{
+            margin-right: 5vw;
+        }
+        
+        div{
+            align-items: flex-end;
+        }
+        
+    }
+
+    .right-panel{
+         h1{
+             color: $primary-color;
+         }
+
+         .upper-title{
+            margin-left: 5vw;
+        }
+    }
+}
