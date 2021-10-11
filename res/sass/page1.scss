@@ -1,9 +1,8 @@
 @import 'colors';
 
 .page1-container{
-    .panel {
-        padding-left: 12vw;
-        padding-right: 12vw;
+    .panel{
+        padding-bottom: 10vh;
     }
     div{
         display: flex;
@@ -14,11 +13,12 @@
     .left-panel{ 
         align-items: flex-end;
         h1{
+            margin-right: 5vw;
             color: $secondary-color;
         }
         
         .upper-title{
-            margin-right: 5vw;
+            margin-right: 25vw;
         }
         
         div{
@@ -29,11 +29,11 @@
 
     .right-panel{
          h1{
-             color: $primary-color;
-         }
-
-         .upper-title{
             margin-left: 5vw;
+            color: $primary-color;
+         }
+         .upper-title{
+            margin-left: 25vw;
         }
     }
 }
