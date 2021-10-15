@@ -1,0 +1,27 @@
+.home {
+    >div {
+        padding-bottom: $margin-l;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .left {
+        align-items: flex-end;
+        h1 {
+            margin-right: $margin-l;
+        }
+        .upper-title {
+            margin-right: 25vw;
+        }        
+    }
+
+    .right {
+         h1 {
+            margin-left: $margin-l;
+         }
+         .upper-title {
+            margin-left: 25vw;
+        }
+    }
+}

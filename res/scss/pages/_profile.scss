@@ -1,0 +1,56 @@
+.profile{
+    .content>div {
+        display: grid;
+        grid-template-rows: 20% 80%;
+
+        h2{
+            text-align:center;
+        }
+
+        &>div{
+            display: flex; 
+        }
+
+        &>.left{
+            flex-direction: row-reverse;
+        }
+
+        &>.right{
+            flex-direction: row;
+        }
+
+        .text-container{
+            max-width: 400px; 
+            flex: 1;
+            margin-bottom: 10vh;
+            &>p{
+                margin-top: $margin-m;
+                margin-bottom: $margin-m;
+            }
+
+            &--left{
+                margin-right: 30vh; 
+            }
+
+            &--right{
+                h4{
+                    margin-bottom: $margin-s;
+                    color: $contrast-color;
+                }
+                margin-left: 30vh;
+                p{
+                    i{
+                        color: $contrast-color;
+                        margin-right: 1vw;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+                li{
+                    margin-top: $margin-m;
+                }
+            }
+        }
+    }
+}

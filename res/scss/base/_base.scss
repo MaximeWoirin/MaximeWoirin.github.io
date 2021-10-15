@@ -1,23 +1,5 @@
-@import 'colors';
-
 * {
-    font-family: 'Noto Sans';
-    &:hover{
-        cursor: default;
-    }
-}
-
-body {
-    margin: 0px;
-}
-
-section>{
-    div{
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        width: 100vw; 
-        height: 100vh; 
-    }
+    font-family: $main-font;
 }
 
 h1 {
@@ -27,9 +9,6 @@ h1 {
     font-weight: bold;
     font-size: 6vw;
     letter-spacing: 0.15em;
-    span{
-        color: $contrast-color;
-    }
 }
 
 h2 {
@@ -38,7 +17,6 @@ h2 {
     font-size: 45px;
     line-height: 61px;
     letter-spacing: 0.1em;
-    margin: 0px;
 }
 
 h3 {
@@ -47,7 +25,6 @@ h3 {
     font-size: 35px;
     line-height: 48px;
     letter-spacing: 0.05em;
-    margin: 0px;
 }
 
 h4 {
@@ -55,7 +32,6 @@ h4 {
     font-weight: 800;
     font-size: 25px;
     line-height: 34px;
-    margin: 0px;
 }
 
 p {
@@ -64,37 +40,40 @@ p {
     font-size: 20px;
     line-height: 27px;
     text-align: justify;
-    margin: 0px;
 }
 
 ul{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-a:hover{
-    cursor: pointer;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
 }
 
-.panel {
-    &__blue{
-        background-color: $primary-color;
-    }
+h1, h2, h3, h4, p {
 
-    &__white{
-        background-color: $secondary-color;
+    &>span{
+        color: $contrast-color;
+    }
+}
+
+section {
+    width: 100vw; 
+    height: 100vh;
+    &>div {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        width: 100%; 
+        height: 100%; 
     }
 }
 
 .primary {
-    color: $primary-color;
+    background-color: $primary-color;
+    color: $secondary-color;
 }
 
 .secondary {
-    color: $secondary-color;
+    background-color: $secondary-color;
+    color: $primary-color;
 }

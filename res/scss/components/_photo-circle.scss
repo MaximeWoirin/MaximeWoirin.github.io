@@ -1,0 +1,39 @@
+.photo{
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    width: 50vh;
+    height: 50vh;
+    left: 50%;
+    top: 150vh;
+    transform: translate(-50%, -50%);
+    img{
+        height: 90%; 
+        width: 90%; 
+        border-radius: 50%; 
+        position: absolute; 
+        z-index: 1; 
+        left: 50%; 
+        top:50%; 
+        transform: translate(-50%, -50%);
+    }
+}
+
+.half-circle {
+    width: 50%;
+    height: 100%;
+
+    &--left{
+        background-color: $primary-color;
+        border-bottom-left-radius: 25vh;
+        border-top-left-radius: 25vh;
+    }
+
+    &--right{
+        background-color: $secondary-color;
+        border-bottom-right-radius: 25vh;
+        border-top-right-radius: 25vh;
+    }
+}
