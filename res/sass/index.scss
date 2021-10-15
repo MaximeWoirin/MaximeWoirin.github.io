@@ -1,7 +1,10 @@
 @import 'colors';
 
 * {
-    font-family: 'Noto Sans'
+    font-family: 'Noto Sans';
+    &:hover{
+        cursor: default;
+    }
 }
 
 body {
@@ -27,9 +30,6 @@ h1 {
     span{
         color: $contrast-color;
     }
-    &:hover{
-        cursor: default;
-    }
 }
 
 h2 {
@@ -46,8 +46,8 @@ h3 {
     font-weight: 500;
     font-size: 35px;
     line-height: 48px;
-    /* identical to box height */
     letter-spacing: 0.05em;
+    margin: 0px;
 }
 
 h4 {
@@ -55,6 +55,30 @@ h4 {
     font-weight: 800;
     font-size: 25px;
     line-height: 34px;
+    margin: 0px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
 }
 
 .panel {
