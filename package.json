@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --no-source-map --watch res/sass/:dist/css/"
+    "sass": "sass --no-source-map res/sass/:dist/css/",
+    "dev": "cp -r res/assets/ dist/assets && sass --no-source-map --watch res/sass/:dist/css/"
   },
   "repository": {
     "type": "git",
