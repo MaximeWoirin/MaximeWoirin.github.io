@@ -1,79 +1,120 @@
 * {
-    font-family: $main-font;
+  font-family: $main-font;
 }
 
 h1 {
-    display: block;
-    margin: 2vh;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 6vw;
-    letter-spacing: 0.15em;
+  display: block;
+  margin: 2vh;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6vw;
+  letter-spacing: 0.15em;
 }
 
 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 61px;
-    letter-spacing: 0.1em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: 0.1em;
 }
 
 h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 48px;
-    letter-spacing: 0.05em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
 }
 
 h4 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 34px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 34px;
 }
 
 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 27px;
-    text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: justify;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
 }
 
-h1, h2, h3, h4, p {
-
-    &>span{
-        color: $contrast-color;
-    }
+h1,
+h2,
+h3,
+h4,
+p {
+  & > span {
+    color: $contrast-color;
+  }
 }
 
 section {
-    width: 100vw; 
-    height: 100vh;
-    &>div {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        width: 100%; 
-        height: 100%; 
-    }
+  & > div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+.pannel {
+  display: flex;
+
+  &--right {
+    flex-direction: row;
+  }
+
+  &--left {
+    flex-direction: row-reverse;
+  }
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+
+  &--top {
+    top: 0px;
+  }
+
+  &--bottom {
+    bottom: 0px;
+  }
+
+  &--left {
+    left: 0px;
+  }
+
+  &--right {
+    right: 0px;
+  }
 }
 
 .primary {
-    background-color: $primary-color;
-    color: $secondary-color;
+  background-color: $primary-color;
+  color: $secondary-color;
 }
 
 .secondary {
-    background-color: $secondary-color;
-    color: $primary-color;
+  background-color: $secondary-color;
+  color: $primary-color;
 }

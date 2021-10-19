@@ -1,12 +1,13 @@
-@import 'abstracts/variables';
+@import "abstracts/variables";
 
-@import 'base/base';
-@import 'base/reset';
+@import "base/base";
+@import "base/reset";
 
-@import 'components/photo-circle';
-@import 'components/quote';
+@import "components/photo-circle";
+@import "components/quote";
 
-@import 'pages/home';
-@import 'pages/profile';
+@import "pages/home";
+@import "pages/profile";
+@import "pages/experiences";
 
-@import 'themes/main';
+@import "themes/main";
