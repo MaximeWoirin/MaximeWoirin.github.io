@@ -25,12 +25,12 @@
         </div>
     </section>
     <section class="profile">
-        <div class="photo">
+        <div class="profile__photo photo">
             <div class="half-circle half-circle--left"></div>
             <div class="half-circle half-circle--right"></div>
             <img src="dist/assets/portrait.jpg" alt="portrait of Maxime WOIRIN the website owner.">
         </div>
-        <div class="content fullscreen">
+        <div class="profile__content fullscreen">
             <div class="secondary">
                 <h2>Future Engineer</h2>
                 <div class="pannel pannel--left">
@@ -87,15 +87,43 @@
     </section>
     <section>
         <div>
-            <div class="primary sticky sticky--top pannel pannel--left" style="height: 100vh;">
-                <div class="menu">
+            <div class="primary sticky sticky--top pannel pannel--left menu">
+                <div>
                     <h2>Experiences</h2>
                     <a>Education</a>
                     <a>Jobs</a>
                     <a>Side Projects</a>
                 </div>
             </div>
-            <div class="secondary pannel pannel--right" style="height : 200vh;"></div>
+            <div class="secondary pannel pannel--right">
+                <ul class="experiences-list">
+                    <li class="experience">
+                        <div>
+                            <img src="dist/assets/INSA.jpeg" alt="Picture of the Mary Curry library, the INSA Lyon's library" class="experience__background-image">
+                            <div class="hexa-button experience__hexa-button">
+                                <p>More</p>
+                            </div>
+                            <!-- <div style="position: absolute; text-align: center; z-index: 10; top:0;">
+                                <h2>INSA Lyon</h2>
+                                <h3>Engineering degree</h3>
+                            </div> -->
+                        </div>
+                    </li>
+                    <li class="experience">
+                        <div>
+                            <img src="dist/assets/INSA.jpeg" alt="Picture of the Mary Curry library, the INSA Lyon's library" class="experience__background-image">
+                            <div class="hexa-button experience__hexa-button">
+                                <p>More</p>
+                            </div>
+                            <!-- <div style="position: absolute; text-align: center; z-index: 10; top:0;">
+                                <h2>INSA Lyon</h2>
+                                <h3>Engineering degree</h3>
+                            </div> -->
+                        </div>
+                    </li>
+                </ul>
+                </ul>
+            </div>
         </div>
     </section>
 </body>

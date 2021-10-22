@@ -1,5 +1,18 @@
 .profile {
-  .content > div {
+  &__photo {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    width: 50vh;
+    height: 50vh;
+    left: 50%;
+    top: 150vh;
+    transform: translate(-50%, -50%);
+  }
+
+  &__content > div {
     display: grid;
     grid-template-rows: 20% 80%;
 

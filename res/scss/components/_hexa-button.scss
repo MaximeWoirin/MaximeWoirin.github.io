@@ -1,0 +1,27 @@
+$dimension: 10;
+
+.hexa-button {
+  position: relative;
+  width: ($dimension * 2vh);
+  height: ($dimension * 1.2vh);
+  background-color: $primary-color;
+  &:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: ($dimension * 0.6vh) solid $primary-color;
+    border-left: ($dimension * 1vh) solid transparent;
+    border-right: ($dimension * 1vh) solid transparent;
+    position: absolute;
+    top: (-$dimension * 0.6vh);
+  }
+  &:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: (-$dimension * 0.6vh);
+    border-top: ($dimension * 0.6vh) solid $primary-color;
+    border-left: ($dimension * 1vh) solid transparent;
+    border-right: ($dimension * 1vh) solid transparent;
+  }
+}
