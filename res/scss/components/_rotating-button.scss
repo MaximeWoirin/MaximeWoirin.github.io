@@ -1,0 +1,40 @@
+@use "sass:math";
+
+$width: 15vw;
+$height: 10vh;
+
+.rotating-button {
+  width: $width;
+  height: $height;
+  cursor: pointer;
+  .side {
+    width: 100%;
+    height: 100%;
+    border: 1px solid $secondary-color;
+    position: absolute;
+    transition: 0.4s transform cubic-bezier(0.02, 0.6, 0.51, 1.05);
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align: center;
+    }
+    &--front {
+      transform: rotateX(0deg) translateZ(math.div($height, 2));
+    }
+    &--bottom {
+      transform: rotateX(-90deg) translateZ(math.div($height, 2));
+    }
+  }
+  &:hover {
+    .side {
+      &--front {
+        transform: rotateX(90deg) translateZ(math.div($height, 2));
+      }
+      &--bottom {
+        transform: rotateX(0deg) translateZ(math.div($height, 2));
+      }
+    }
+  }
+}

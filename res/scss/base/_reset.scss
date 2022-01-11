@@ -4,7 +4,15 @@ h2,
 h3,
 h4,
 p,
-ul {
+ul,
+button {
   margin: 0px;
   padding: 0px;
+}
+
+button {
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  cursor: pointer;
 }
